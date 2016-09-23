@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="HMIProject"
+           fetch="https://github.com" />
+
+  <default revision="refs/heads/master"
+           remote="HMIProject"
+           sync-j="4" />
+
+  <project name="dimooon/RocketD" remote="HMIProject" path="vm"/>
+
+</manifest>
